@@ -2,6 +2,7 @@
 author = "Site Author"
 singlePage = true
 defaultThemeMode = 'light'
+languageSelector = true
 themeModeSwitcher = true
 searchBar = true
 formspreeFormUrl = 'https://formspree.io/f/xqakprqn'

@@ -5,7 +5,7 @@
 {{ $siteLanguages := site.Home.AllTranslations }}
 {{ $pageLink := replace (replace $context.RelPermalink (add $pageLang "/") "") $base.Path "/" }}
 
-{{ if $context.IsTranslated }}
+{{ if and (and (site.Params.languageSelector) ($context.IsTranslated)) (gt (len $siteLanguages) (1)) }}
     <div class="{{ $class }} flex flex-col flex-shrink-0 space-x-xs">
         <button id="language-selector" class="btn" onclick="document.getElementById('language-options').classList.toggle('hidden')">
             {{ range $siteLanguages }}
