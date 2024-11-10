@@ -1,0 +1,6 @@
+<div class="flex flex-col space-y-xl items-center justify-center">
+    <i class="fas fa-chevron-up text-7xl text-brand-light dark:text-info-dark cursor-pointer"
+       onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;"></i>
+    <p class="txt-l">Copyright {{ now.Year }}. All rights reserved.</p>
+    {{ partial "components/socialLinks.html" (dict "InvertColors" "true" )}}
+</div>

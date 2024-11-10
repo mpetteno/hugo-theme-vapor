@@ -1,0 +1,19 @@
+name = 'Vapor'
+license = 'MIT'
+licenselink = 'https://github.com/mpetteno/hugo-vapor-theme/LICENSE'
+description = 'Lightweight Hugo theme'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/mpetteno/hugo-vapor-theme'
+
+# If you have a running demo of the theme
+demosite = 'https://mpetteno.github.io/portfolio/'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+features = ['some', 'awesome', 'features']
+
+# If the theme has a single author
+[author]
+  name = 'Matteo Pettenò'
+  homepage = 'https://mpetteno.github.io/portfolio/'

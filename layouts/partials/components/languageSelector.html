@@ -1,0 +1,32 @@
+{{ $context := .Context }}
+{{ $class := .Class }}
+{{ $pageLang := $context.Lang }}
+{{ $base:= urls.Parse site.Home.Permalink }}
+{{ $siteLanguages := site.Home.AllTranslations }}
+{{ $pageLink := replace (replace $context.RelPermalink (add $pageLang "/") "") $base.Path "/" }}
+
+{{ if $context.IsTranslated }}
+    <div class="{{ $class }} flex flex-col flex-shrink-0 space-x-xs">
+        <button id="language-selector" class="btn" onclick="document.getElementById('language-options').classList.toggle('hidden')">
+            {{ range $siteLanguages }}
+                {{ if eq (string $pageLang) (string .Language) }}
+                    <span class="uppercase text-tertiary-light dark:text-tertiary-dark">{{ .Language }}</span>
+                {{ end }}
+            {{ end }}
+            <i class="fas fa-chevron-down text-brand-light dark:text-brand-dark"></i>
+            <div id="language-options" class="hidden absolute top-[84px] right-xl border-container-secondary flex-col rounded-s min-w-6xl p-xs">
+                {{ range $index, $lang := $siteLanguages }}
+                    <div class="p-xs first:rounded-s last:rounded-s
+                        {{ if eq (string $pageLang) (string $lang.Language) }} bg-selected-light dark:bg-selected-dark {{ end }}">
+                            <a id="{{ $lang.Language }}" href="{{ replace (add $lang.RelPermalink $pageLink) `//` `/` }}">
+                            <span class="uppercase text-tertiary-light dark:text-tertiary-dark
+                                {{ if ne (string $pageLang) (string $lang.Language) }} hover:text-brand-light hover:dark:text-brand-dark {{ end }}">
+                                {{ $lang.Language }}
+                            </span>
+                        </a>
+                    </div>
+                {{ end }}
+            </div>
+        </button>
+    </div>
+{{ end }}

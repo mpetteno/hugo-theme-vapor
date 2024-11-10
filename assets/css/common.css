@@ -1,0 +1,15 @@
+.border-container {
+    @apply border-solid border-xs border-primary-light dark:border-primary-dark
+}
+
+.border-container-secondary {
+    @apply border-solid border-xs border-secondary-light dark:border-secondary-dark
+}
+
+.article > ul, ol {
+    @apply list-disc ml-xl text-primary-light dark:text-primary-dark
+}
+
+.article > p:not(:first-of-type) {
+    @apply mt-xl
+}

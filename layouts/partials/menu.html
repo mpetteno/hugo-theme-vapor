@@ -1,0 +1,64 @@
+{{- /*
+Renders a menu for the given menu ID.
+
+@context {page} page The current page.
+@context {string} menuID The menu ID.
+
+@example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+*/}}
+
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+  <nav id="{{ $menuID }}">
+    <ul class="flex txt-xl">
+      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+    </ul>
+  </nav>
+{{- end }}
+
+{{- define "partials/inline/menu/walk.html" }}
+  {{- $page := .page }}
+  {{- $entries := .menuEntries }}
+  {{- $separator := .separator | default true }}
+  {{- range $index, $entry := $entries }}
+    {{- $href := .URL }}
+    {{- if and (site.Params.singlePage) (ne ($entry.Params.rel) ("external"))  }}
+      {{- $href = printf "#%s" .Identifier }}
+    {{- end }}
+    {{- $attrs := dict "href" $href }}
+    {{- if $page.IsMenuCurrent .Menu . }}
+      {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
+    {{- else if $page.HasMenuCurrent .Menu .}}
+      {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
+    {{- end }}
+    {{- $name := .Name }}
+    {{- with .Identifier }}
+      {{- with T . }}
+        {{- $name = . }}
+      {{- end }}
+    {{- end }}
+    <li class="border-b-transparent border-b-m {{ if not .HasChildren }}hover:border-b-brand-light dark:hover-border-b-brand-dark{{end}} {{ if .HasChildren }}cursor-pointer group{{ end }} relative">
+      {{ .Pre | markdownify }}
+      {{ if not .HasChildren }}
+        <a
+          {{- range $k, $v := $attrs }}
+            {{- with $v }}
+              {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+            {{- end }}
+          {{- end -}}
+          rel={{ $entry.Params.rel }}>{{ $name }}</a>
+      {{ else }}
+        {{ $name }}
+      {{ end }}
+      {{ .Post | markdownify }}
+      {{- with .Children }}
+        <ul class="invisible absolute -left-[10px] z-50 group-hover:visible bg-selected-light dark:bg-selected-dark p-m text-l rounded-m">
+          {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "separator" false)  }}
+        </ul>
+      {{- end }}
+    </li>
+    {{ if and (eq ($separator) (true)) (ne (add $index 1) (len $entries)) }}&nbsp;/&nbsp;{{ end }}
+  {{- end }}
+{{- end }}

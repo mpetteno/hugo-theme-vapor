@@ -1,0 +1,72 @@
+{
+  "Space": {
+    "2XS": {
+      "$type": "number",
+      "$value": 2
+    },
+    "XS": {
+      "$type": "number",
+      "$value": 4
+    },
+    "S": {
+      "$type": "number",
+      "$value": 8
+    },
+    "M": {
+      "$type": "number",
+      "$value": 12
+    },
+    "L": {
+      "$type": "number",
+      "$value": 16
+    },
+    "XL": {
+      "$type": "number",
+      "$value": 24
+    },
+    "2XL": {
+      "$type": "number",
+      "$value": 32
+    },
+    "3XL": {
+      "$type": "number",
+      "$value": 40
+    },
+    "4XL": {
+      "$type": "number",
+      "$value": 48
+    },
+    "5XL": {
+      "$type": "number",
+      "$value": 56
+    },
+    "6XL": {
+      "$type": "number",
+      "$value": 64
+    },
+    "7XL": {
+      "$type": "number",
+      "$value": 72
+    },
+    "8XL": {
+      "$type": "number",
+      "$value": 80
+    },
+    "9XL": {
+      "$type": "number",
+      "$value": 88
+    },
+    "10XL": {
+      "$type": "number",
+      "$value": 96
+    },
+    "11XL": {
+      "$type": "number",
+      "$value": 104
+    },
+    "12XL": {
+      "$type": "number",
+      "$value": 112
+    }
+  }
+}

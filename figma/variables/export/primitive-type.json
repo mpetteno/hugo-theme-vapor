@@ -1,0 +1,132 @@
+{
+  "Letter Spacing": {
+    "XS": {
+      "$type": "number",
+      "$value": -1
+    },
+    "S": {
+      "$type": "number",
+      "$value": -0.5
+    },
+    "None": {
+      "$type": "number",
+      "$value": 0
+    }
+  },
+  "Font Size": {
+    "XS": {
+      "$type": "number",
+      "$value": 10
+    },
+    "S": {
+      "$type": "number",
+      "$value": 12
+    },
+    "M": {
+      "$type": "number",
+      "$value": 14
+    },
+    "L": {
+      "$type": "number",
+      "$value": 16
+    },
+    "XL": {
+      "$type": "number",
+      "$value": 18
+    },
+    "2XL": {
+      "$type": "number",
+      "$value": 20
+    },
+    "3XL": {
+      "$type": "number",
+      "$value": 24
+    },
+    "4XL": {
+      "$type": "number",
+      "$value": 28
+    },
+    "5XL": {
+      "$type": "number",
+      "$value": 32
+    },
+    "6XL": {
+      "$type": "number",
+      "$value": 40
+    },
+    "7XL": {
+      "$type": "number",
+      "$value": 48
+    },
+    "8XL": {
+      "$type": "number",
+      "$value": 56
+    },
+    "9XL": {
+      "$type": "number",
+      "$value": 64
+    },
+    "10XL": {
+      "$type": "number",
+      "$value": 72
+    }
+  },
+  "Line Height": {
+    "XS": {
+      "$type": "number",
+      "$value": 14
+    },
+    "S": {
+      "$type": "number",
+      "$value": 16
+    },
+    "M": {
+      "$type": "number",
+      "$value": 20
+    },
+    "L": {
+      "$type": "number",
+      "$value": 24
+    },
+    "XL": {
+      "$type": "number",
+      "$value": 26
+    },
+    "2XL": {
+      "$type": "number",
+      "$value": 28
+    },
+    "3XL": {
+      "$type": "number",
+      "$value": 32
+    },
+    "4XL": {
+      "$type": "number",
+      "$value": 36
+    },
+    "5XL": {
+      "$type": "number",
+      "$value": 40
+    },
+    "6XL": {
+      "$type": "number",
+      "$value": 48
+    },
+    "7XL": {
+      "$type": "number",
+      "$value": 56
+    },
+    "8XL": {
+      "$type": "number",
+      "$value": 64
+    },
+    "9XL": {
+      "$type": "number",
+      "$value": 72
+    },
+    "10XL": {
+      "$type": "number",
+      "$value": 80
+    }
+  }
+}

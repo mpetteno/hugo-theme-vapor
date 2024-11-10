@@ -1,0 +1,25 @@
+.extra-small-img {
+    width: 130px;
+}
+
+.small-img {
+    width: 180px;
+}
+
+.medium-img {
+    width: 230px;
+}
+
+.large-img {
+    width: 280px;
+}
+
+.extra-small-img .small-img .medium-img .large-img > img {
+    width: 100%;
+    height: auto;
+}
+
+.rounded-img > img {
+    border-radius: 50%;
+    shape-outside: circle(80%);
+}

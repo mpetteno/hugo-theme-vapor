@@ -1,0 +1,11 @@
+.btn {
+    @apply border-container rounded-s p-s bg-primary-light dark:bg-primary-dark hover:border-brand-light
+    dark:hover:border-brand-dark active:bg-brand-light dark:active:bg-brand-pressed-dark text-secondary-light
+    dark:text-secondary-dark;
+}
+
+.btn-brand {
+    @apply border-container rounded-s p-s bg-brand-light dark:bg-brand-dark hover:bg-brand-hover-light
+    dark:hover:bg-brand-hover-dark active:bg-brand-light dark:active:bg-brand-pressed-dark text-secondary-inverse-light
+    dark:text-secondary-inverse-dark;
+}

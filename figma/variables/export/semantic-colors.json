@@ -1,0 +1,572 @@
+{
+  "Content": {
+    "Primary": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.900}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      }
+    },
+    "Secondary": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.800}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.100}"
+      }
+    },
+    "Tertiary": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.600}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.300}"
+      }
+    },
+    "Primary Inverse": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.900}"
+      }
+    },
+    "Secondary Inverse": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.100}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.800}"
+      }
+    },
+    "Tertiary Inverse": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.300}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.600}"
+      }
+    },
+    "Disabled": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.300}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.700}"
+      }
+    },
+    "Brand": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Brand.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Brand.400}"
+      }
+    },
+    "Link": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.400}"
+      }
+    },
+    "Link Hover": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.600}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.300}"
+      }
+    },
+    "Link Pressed": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.700}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.200}"
+      }
+    },
+    "Info": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.400}"
+      }
+    },
+    "Info Bold": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.600}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.300}"
+      }
+    },
+    "Notice": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Warning.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Warning.400}"
+      }
+    },
+    "Notice Bold": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Warning.700}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Warning.300}"
+      }
+    },
+    "Positive": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Success.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Success.400}"
+      }
+    },
+    "Positive Bold": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Success.600}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Success.300}"
+      }
+    },
+    "Negative": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Error.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Error.400}"
+      }
+    },
+    "Negative Bold": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Error.600}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Error.300}"
+      }
+    }
+  },
+  "Background": {
+    "Primary": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.900}"
+      }
+    },
+    "Hover": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.50}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.800}"
+      }
+    },
+    "Pressed": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.100}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.700}"
+      }
+    },
+    "Selected": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Brand.100}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Brand.800}"
+      }
+    },
+    "Disabled": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.50}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.800}"
+      }
+    },
+    "Inverse": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.900}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      }
+    },
+    "Brand": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Brand.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Brand.400}"
+      }
+    },
+    "Brand Hover": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Brand.600}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Brand.300}"
+      }
+    },
+    "Brand Pressed": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Brand.700}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Brand.200}"
+      }
+    },
+    "Info": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.400}"
+      }
+    },
+    "Info Subtle": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.100}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.800}"
+      }
+    },
+    "Notice": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Warning.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Warning.400}"
+      }
+    },
+    "Notice Subtle": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Warning.100}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Warning.800}"
+      }
+    },
+    "Negative": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Error.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Error.400}"
+      }
+    },
+    "Negative Subtle": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Error.100}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Error.800}"
+      }
+    },
+    "Positive": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Success.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Success.400}"
+      }
+    },
+    "Positive Subtle": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Success.100}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Success.800}"
+      }
+    }
+  },
+  "Border": {
+    "Primary": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.600}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.400}"
+      }
+    },
+    "Secondary": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.400}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.600}"
+      }
+    },
+    "Tertiary": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.200}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.800}"
+      }
+    },
+    "Disabled": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Neutral.200}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.700}"
+      }
+    },
+    "Brand": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Brand.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Brand.400}"
+      }
+    },
+    "Inverse": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.900}"
+      }
+    },
+    "Focus": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.400}"
+      }
+    },
+    "Info": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Secondary.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Secondary.400}"
+      }
+    },
+    "Notice": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Warning.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Warning.400}"
+      }
+    },
+    "Negative": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Error.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Error.400}"
+      }
+    },
+    "Positive": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Success.500}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Success.400}"
+      }
+    }
+  },
+  "Surface": {
+    "L0": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.950}"
+      }
+    },
+    "L1": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.900}"
+      }
+    },
+    "L2": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.800}"
+      }
+    },
+    "L3": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.700}"
+      }
+    },
+    "L4": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.600}"
+      }
+    },
+    "L5": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.500}"
+      }
+    },
+    "L6": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Neutral.400}"
+      }
+    }
+  },
+  "Overlay": {
+    "50": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.Black 50}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Base.Black 50}"
+      }
+    },
+    "50 Inverse": {
+      "Light": {
+        "$type": "color",
+        "$value": "{Base.White 50}"
+      },
+      "Dark": {
+        "$type": "color",
+        "$value": "{Base.White 50}"
+      }
+    }
+  }
+}

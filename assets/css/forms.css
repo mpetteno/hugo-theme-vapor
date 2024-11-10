@@ -1,0 +1,10 @@
+.txt-input {
+    @apply h-3xl caret-info-bold-light dark:caret-info-bold-dark bg-primary-light dark:bg-primary-dark w-full
+    placeholder-shown:text-disabled-light dark:placeholder-shown:text-disabled-dark text-secondary-light
+    dark:text-secondary-dark focus:placeholder:text-tertiary-light dark:focus:placeholder:text-tertiary-dark
+    focus:outline-0 p-s
+}
+
+.txt-input-bordered {
+    @apply txt-input border-container hover:border-brand-light dark:hover:border-brand-dark rounded-s
+}

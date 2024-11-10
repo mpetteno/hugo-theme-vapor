@@ -1,0 +1,20 @@
+{
+  "Breakpoint": {
+    "XL": {
+      "$type": "number",
+      "$value": 1440
+    },
+    "L": {
+      "$type": "number",
+      "$value": 1024
+    },
+    "M": {
+      "$type": "number",
+      "$value": 768
+    },
+    "S": {
+      "$type": "number",
+      "$value": 393
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "Breakpoint": {
+    "Desktop": {
+      "$type": "number",
+      "$value": "{Breakpoint.XL}"
+    },
+    "Mobile": {
+      "$type": "number",
+      "$value": "{Breakpoint.S}"
+    }
+  },
+  "Heading": {
+    "5XL": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.XS}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.10XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.9XL}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.10XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.9XL}"
+          }
+        }
+      }
+    },
+    "4XL": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.XS}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.9XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.8XL}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.9XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.8XL}"
+          }
+        }
+      }
+    },
+    "3XL": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.XS}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.8XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.7XL}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.8XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.7XL}"
+          }
+        }
+      }
+    },
+    "2XL": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.XS}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.7XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.6XL}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.7XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.6XL}"
+          }
+        }
+      }
+    },
+    "XL": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.XS}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.6XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.5XL}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.6XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.5XL}"
+          }
+        }
+      }
+    },
+    "L": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.XS}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.5XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.4XL}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.5XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.4XL}"
+          }
+        }
+      }
+    },
+    "M": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.S}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.3XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.2XL}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.3XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.2XL}"
+          }
+        }
+      }
+    },
+    "S": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.S}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.2XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.2XL}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.2XL}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.2XL}"
+          }
+        }
+      }
+    },
+    "XS": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.S}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.L}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.M}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.L}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.M}"
+          }
+        }
+      }
+    },
+    "2XS": {
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Size.M}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Size.S}"
+          }
+        },
+        "Line Height": {
+          "Desktop": {
+            "$type": "number",
+            "$value": "{Line Height.M}"
+          },
+          "Mobile": {
+            "$type": "number",
+            "$value": "{Line Height.S}"
+          }
+        }
+      }
+    }
+  },
+  "Text": {
+    "XL": {
+      "Regular": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.2XL}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.2XL}"
+        }
+      },
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.2XL}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.2XL}"
+        }
+      }
+    },
+    "L": {
+      "Regular": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.L}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.L}"
+        }
+      },
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.L}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.L}"
+        }
+      }
+    },
+    "M": {
+      "Regular": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.M}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.M}"
+        }
+      },
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.M}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.M}"
+        }
+      }
+    },
+    "S": {
+      "Regular": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.S}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.S}"
+        }
+      },
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.S}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.S}"
+        }
+      }
+    },
+    "XS": {
+      "Regular": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.XS}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.XS}"
+        }
+      },
+      "Semibold": {
+        "Letter Spacing": {
+          "$type": "number",
+          "$value": "{Letter Spacing.None}"
+        },
+        "Size": {
+          "$type": "number",
+          "$value": "{Size.XS}"
+        },
+        "Line Height": {
+          "$type": "number",
+          "$value": "{Line Height.XS}"
+        }
+      }
+    }
+  }
+}

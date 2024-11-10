@@ -1,0 +1,50 @@
+{
+  "Radius": {
+    "Circle": {
+      "$type": "number",
+      "$value": 50
+    },
+    "Pill": {
+      "$type": "number",
+      "$value": 999
+    },
+    "L": {
+      "$type": "number",
+      "$value": 16
+    },
+    "M": {
+      "$type": "number",
+      "$value": 12
+    },
+    "S": {
+      "$type": "number",
+      "$value": 8
+    },
+    "XS": {
+      "$type": "number",
+      "$value": 4
+    }
+  },
+  "Width": {
+    "XL": {
+      "$type": "number",
+      "$value": 8
+    },
+    "L": {
+      "$type": "number",
+      "$value": 4
+    },
+    "M": {
+      "$type": "number",
+      "$value": 2
+    },
+    "S": {
+      "$type": "number",
+      "$value": 1.5
+    },
+    "XS": {
+      "$type": "number",
+      "$value": 1
+    }
+  }
+}

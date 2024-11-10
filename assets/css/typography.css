@@ -1,0 +1,143 @@
+/* ---------------------- HEADING ---------------------- */
+/* Default */
+.heading-5xl,
+.heading-4xl,
+.heading-3xl,
+.heading-2xl,
+.heading-xl,
+.heading-l,
+.heading-m,
+.heading-xs,
+.heading-2xs {
+    @apply font-normal text-primary-light dark:text-primary-dark;
+}
+
+/* Tracking */
+.heading-5xl, .heading-4xl, .heading-3xl, .heading-2xl, .heading-xl, .heading-l {
+    @apply tracking-xs
+}
+
+.heading-m, .heading-xs, .heading-2xs {
+    @apply tracking-s
+}
+
+.heading-2xs {
+    @apply tracking-none
+}
+
+/* Apply desktop styles */
+@media (min-width: theme("screens.s")) {
+    .heading-5xl {
+        @apply text-10xl leading-10xl
+    }
+
+    .heading-4xl {
+        @apply text-9xl leading-9xl
+    }
+
+    .heading-3xl {
+        @apply text-8xl leading-8xl
+    }
+
+    .heading-2xl {
+        @apply text-7xl leading-7xl
+    }
+
+    .heading-xl {
+        @apply text-6xl leading-6xl
+    }
+
+    .heading-l {
+        @apply text-5xl leading-5xl
+    }
+
+    .heading-m {
+        @apply text-3xl leading-3xl
+    }
+
+    .heading-s {
+        @apply text-2xl leading-2xl
+    }
+
+    .heading-xs {
+        @apply text-l leading-l
+    }
+
+    .heading-2xs {
+        @apply text-m leading-m
+    }
+}
+
+/* Apply mobile styles */
+@media (max-width: theme("screens.s")) {
+    .heading-5xl {
+        @apply text-9xl leading-9xl
+    }
+
+    .heading-4xl {
+        @apply text-8xl leading-8xl
+    }
+
+    .heading-3xl {
+        @apply text-7xl leading-7xl
+    }
+
+    .heading-2xl {
+        @apply text-6xl leading-6xl
+    }
+
+    .heading-xl {
+        @apply text-5xl leading-5xl
+    }
+
+    .heading-l {
+        @apply text-4xl leading-4xl
+    }
+
+    .heading-m {
+        @apply text-2xl leading-2xl
+    }
+
+    .heading-s {
+        @apply text-2xl leading-2xl
+    }
+
+    .heading-xs {
+        @apply text-m leading-m
+    }
+
+    .heading-2xs {
+        @apply text-s leading-s
+    }
+}
+
+/* ---------------------- TEXT ---------------------- */
+/* Default */
+p,
+.txt-xl,
+.txt-l,
+.txt-m,
+.txt-s,
+.txt-xs {
+    @apply font-normal tracking-none text-primary-light dark:text-primary-dark;
+}
+
+.txt-xl {
+    @apply text-2xl leading-2xl
+}
+
+p .txt-l {
+    @apply text-l leading-l
+}
+
+.txt-m {
+    @apply text-m leading-m
+}
+
+.txt-s {
+    @apply text-s leading-s
+}
+
+.txt-xs {
+    @apply text-xs leading-xs
+}

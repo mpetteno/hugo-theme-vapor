@@ -1,0 +1,14 @@
+<div class="flex flex-col space-y-4xl">
+    <div class="flex justify-between items-center">
+        {{ partial "components/searchBar.html" (dict "Class" "mr-l") }}
+        <div class="flex items-center space-x-l">
+            {{ partial "components/themeModeSwitcher.html" }}
+            {{ partial "components/languageSelector.html" (dict "Context" . ) }}
+        </div>
+    </div>
+    <div class="flex flex-col justify-center items-center space-y-l">
+        <h1 class="heading-xl font-semibold">{{ site.Params.author }}</h1>
+        {{ partial "components/socialLinks.html" }}
+        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+</div>

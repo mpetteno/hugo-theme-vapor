@@ -1,1 +1,7 @@
-# hugo-theme-vapor
+# Theme Name
+
+## Features
+
+## Installation
+
+## Configuration
