@@ -28,6 +28,9 @@ Renders a menu for the given menu ID.
       {{- $href = printf "#%s" .Identifier }}
     {{- end }}
     {{- $attrs := dict "href" $href }}
+    {{- if $entry.Params.target }}
+      {{- $attrs = merge $attrs (dict "target" $entry.Params.target) }}
+    {{- end }}
     {{- if $page.IsMenuCurrent .Menu . }}
       {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
     {{- else if $page.HasMenuCurrent .Menu .}}
