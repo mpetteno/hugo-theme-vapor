@@ -8,8 +8,9 @@
             {{ else }}
                 odd:text-brand-light even:text-info-light dark:odd:text-brand-dark dark:even:text-info-dark
             {{ end }}">
-            <i class="{{ .icon }} text-3xl"></i>
-            <a href="{{ .url }}" rel="{{ .rel }}" target="{{ .target }}"></a>
+            <a href="{{ .url }}" rel="{{ .rel }}" target="{{ .target }}">
+                <i class="{{ .icon }} text-3xl"></i>
+            </a>
         </li>
     {{ end }}
 </ul>
