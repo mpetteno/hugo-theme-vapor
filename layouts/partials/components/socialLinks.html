@@ -2,15 +2,17 @@
 
 <ul id="social-links" class="flex space-x-l s:space-x-2xl">
     {{ range sort site.Params.social "weight" }}
-        <li class="cursor-pointer
-            {{ if $invertColors }}
-                even:text-brand-light odd:text-info-light dark:even:text-brand-dark dark:odd:text-info-dark
-            {{ else }}
-                odd:text-brand-light even:text-info-light dark:odd:text-brand-dark dark:even:text-info-dark
-            {{ end }}">
-            <a href="{{ .url }}" rel="{{ .rel }}" target="{{ .target }}">
-                <i class="{{ .icon }} text-3xl"></i>
-            </a>
-        </li>
+        {{ if not .hide }}
+            <li class="cursor-pointer
+                {{ if $invertColors }}
+                    even:text-brand-light odd:text-info-light dark:even:text-brand-dark dark:odd:text-info-dark
+                {{ else }}
+                    odd:text-brand-light even:text-info-light dark:odd:text-brand-dark dark:even:text-info-dark
+                {{ end }}">
+                <a href="{{ .url }}" rel="{{ .rel }}" target="{{ .target }}">
+                    <i class="{{ .icon }} text-3xl"></i>
+                </a>
+            </li>
+        {{ end }}
     {{ end }}
 </ul>
