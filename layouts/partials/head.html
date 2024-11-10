@@ -2,10 +2,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="{{ .Site.Author.name }}">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="apple-touch-icon" sizes="180x180" href='{{ relURL "apple-touch-icon.png" }}'>
-<link rel="icon" type="image/png" sizes="32x32" href='{{ relURL "favicon-32x32.png" }}'>
-<link rel="icon" type="image/png" sizes="16x16" href='{{ relURL "favicon-16x16.png" }}'>
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href='{{ relURL "favicons/apple-touch-icon.png" }}'>
+<link rel="icon" type="image/png" sizes="32x32" href='{{ relURL "favicons/favicon-32x32.png" }}'>
+<link rel="icon" type="image/png" sizes="16x16" href='{{ relURL "favicons/favicon-16x16.png" }}'>
 <link rel="manifest" href='{{ relURL "site.webmanifest" }}'>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family={{ site.Params.googleFontName }}&display=swap" rel="stylesheet"/>
+
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
