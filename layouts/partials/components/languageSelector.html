@@ -18,7 +18,7 @@
                 {{ range $index, $lang := $siteLanguages }}
                     <div class="p-xs first:rounded-s last:rounded-s
                         {{ if eq (string $pageLang) (string $lang.Language) }} bg-selected-light dark:bg-selected-dark {{ end }}">
-                            <a id="{{ $lang.Language }}" href="{{ replace (add $lang.RelPermalink $pageLink) `//` `/` }}">
+                        <a id="{{ $lang.Language }}" href="{{ replace $lang.RelPermalink `//` `/` }}">
                             <span class="uppercase text-tertiary-light dark:text-tertiary-dark
                                 {{ if ne (string $pageLang) (string $lang.Language) }} hover:text-brand-light hover:dark:text-brand-dark {{ end }}">
                                 {{ $lang.Language }}
