@@ -1,7 +1,9 @@
 +++
 title = 'DIY Projects'
 date = 2023-01-01T08:30:00-07:00
-draft = false
+[_build]
+    render = "never"
+    list = "never"
 +++
 {{< figure src="/img1.jpg" alt="DIY project image" class="medium-img m-auto m:float-left m:mr-m mb-xl" >}}
 

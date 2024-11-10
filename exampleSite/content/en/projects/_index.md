@@ -2,6 +2,9 @@
 title = 'Projects'
 date = 2023-01-01T08:30:00-07:00
 draft = false
+[_build]
+    render = "never"
+    list = "never"
 +++
 Curabitur accumsan id tortor ac lacinia. Morbi diam sem, efficitur quis arcu pharetra, ullamcorper bibendum tortor. 
 Proin egestas vitae turpis commodo condimentum. Ut vel purus interdum, tincidunt turpis sit amet, ornare magna. Donec 

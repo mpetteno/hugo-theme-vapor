@@ -2,6 +2,9 @@
 title = 'About me'
 date = 2023-01-01T08:00:00-07:00
 draft = false
+[build]
+    render = "never"
+    list = "never"
 +++
 {{< figure src="/profile-picture.jpg" alt="Profile image" class="extra-small-img m-auto mb-l rounded-img s:float-right s:ml-m">}}
 
