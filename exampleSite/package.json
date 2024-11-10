@@ -1,8 +1,8 @@
 {
   "name": "hugo-theme-vapor",
   "version": "1.0.0",
-  "description": "## Features",
-  "main": "postcss.config.js",
+  "description": "",
+  "main": "",
   "dependencies": {
     "ansi-regex": "^6.1.0",
     "ansi-styles": "^6.2.1",
@@ -130,9 +130,7 @@
     "postcss-import": "^16.1.0",
     "tailwindcss": "^3.4.14"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "scripts": {},
+  "author": "Matteo Pettenò",
   "license": "ISC"
 }

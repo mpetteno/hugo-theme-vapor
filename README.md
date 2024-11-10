@@ -3,10 +3,15 @@
 ## Features
 
 ## Installation
+```
+
+```
 
 ## Configuration
 
-TODO
-- [ ] exampleSite folder 
-- [ ] add submodule to portfolio site and develop
-- [ ] add figma design files to git repo
+## Example site
+```
+cd exampleSite
+npm install
+huge server [environment --production]
+```

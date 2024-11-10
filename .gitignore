@@ -6,8 +6,10 @@
 node_modules/
 
 # Hugo
-public/
-themes/
+exampleSite/public/
+exampleSite/resources/
+exampleSite/hugo_stats.json
+tailwind-full.config.js
 
 # Custom
 /figma/variables/generatedTailwindConfig.js
