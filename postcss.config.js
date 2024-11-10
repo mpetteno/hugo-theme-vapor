@@ -12,7 +12,9 @@ module.exports = {
                     const els = JSON.parse(content).htmlElements;
                     return [...(els.tags || []), ...(els.classes || []), ...(els.ids || [])];
                 },
-                "safelist": []
+                "safelist": {
+                    standard: [/^dark/]
+                }
             }
         }
     }
