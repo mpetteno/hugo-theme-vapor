@@ -288,4 +288,3 @@ module.exports = {
     "caretColor": ({ theme }) => theme('textColor'),
   }
 }
-
