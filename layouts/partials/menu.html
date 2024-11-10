@@ -54,7 +54,7 @@ Renders a menu for the given menu ID.
       {{ end }}
       {{ .Post | markdownify }}
       {{- with .Children }}
-        <ul class="invisible absolute -left-[10px] z-50 group-hover:visible bg-selected-light dark:bg-selected-dark p-m text-l rounded-m">
+        <ul class="invisible w-max absolute -left-[10px] z-50 group-hover:visible bg-selected-light dark:bg-selected-dark p-m text-l rounded-m">
           {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "separator" false)  }}
         </ul>
       {{- end }}
