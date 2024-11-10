@@ -1,0 +1,71 @@
+[[main]]
+    identifier = 'profilo'
+    name = 'profilo'
+    pageRef = '/about'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'profilo'
+    weight = 10
+    [main.params]
+[[main]]
+    identifier = 'progetti'
+    name = 'progetti'
+    pageRef = '/projects'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'progetti'
+    weight = 20
+    [main.params]
+[[main]]
+    identifier = 'resume'
+    name = 'resume'
+    url = '#'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'resume'
+    weight = 30
+    [main.params]
+        rel = 'external'
+[[main]]
+    identifier = 'contactme'
+    name = 'contattami'
+    pageRef = '/contactme'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'contattami'
+    weight = 40
+    [main.params]
+[[main]]
+    identifier = 'progetti-ricerca'
+    name = 'ricerca'
+    pageRef = '/projects/research'
+    parent = 'progetti'
+    post = ''
+    pre = ''
+    title = 'progetti di ricerca'
+    weight = 10
+    [main.params]
+[[main]]
+    identifier = 'progetti-diy'
+    name = 'diy'
+    pageRef = '/projects/diy'
+    parent = 'progetti'
+    post = ''
+    pre = ''
+    title = 'progetti diy'
+    weight = 20
+    [main.params]
+[[main]]
+    identifier = 'progetti-creativi'
+    name = 'creativi'
+    pageRef = '/projects/creative'
+    parent = 'progetti'
+    post = ''
+    pre = ''
+    title = 'progetti creativi'
+    weight = 30
+    [main.params]

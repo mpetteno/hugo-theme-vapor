@@ -1,0 +1,8 @@
+[buildStats]
+    disableClasses = false
+    disableIDs = false
+    disableTags = false
+    enable = true
+[[cacheBusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = '(css|styles|scss|sass)'

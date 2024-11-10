@@ -1,7 +1,7 @@
 {{ $class := .Class }}
 
 <div class="{{ $class }}">
-    <form id="contactme-form" class="flex flex-col items-center justify-center p-s space-y-l" action="https://formspree.io/f/xqakprqn" method="POST">
+    <form id="contactme-form" class="flex flex-col items-center justify-center p-s space-y-l" action="{{ site.Params.formspreeFormUrl }}" method="POST">
         <div class="flex flex-row w-full space-x-l">
             <label><input class="txt-input-bordered" type="text" name="name" placeholder="Name"></label>
             <label><input class="txt-input-bordered" type="text" name="surname" placeholder="Surname"></label>

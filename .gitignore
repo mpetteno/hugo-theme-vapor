@@ -7,10 +7,7 @@ node_modules/
 
 # Hugo
 public/
-resources/
 themes/
-content/
-config/
 
 # Custom
 /figma/variables/generatedTailwindConfig.js

@@ -1,0 +1,22 @@
+#[[headers]]
+#    for = '/**'
+#    [headers.values]
+#        Content-Security-Policy = 'script-src localhost:1313'
+#        Referrer-Policy = 'strict-origin-when-cross-origin'
+#        X-Content-Type-Options = 'nosniff'
+#        X-Frame-Options = 'DENY'
+#        X-XSS-Protection = '1; mode=block'
+
+#[[redirects]]
+#    force = false
+#    from = '/myspa/**'
+#    status = 200
+#    to = '/myspa/'
+#[[redirects]]
+#    from = '/**'
+#    status = 404
+#    to = '/404.html'
+#[[redirects]]
+#    from = '/it/**'
+#    status = 404
+#    to = '/it/404.html'

@@ -1,0 +1,72 @@
+
+author = "Site Author"
+singlePage = true
+defaultThemeMode = 'light'
+themeModeSwitcher = true
+searchBar = true
+formspreeFormUrl = 'https://formspree.io/f/xqakprqn'
+fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
+
+[[social]]
+    identifier = 'github'
+    name = 'Github'
+    url = '/'
+    icon = 'fa-brands fa-github'
+    title = 'github'
+    weight = 10
+    rel = 'external'
+    target = '_blank'
+[[social]]
+    identifier = 'linkedin'
+    name = 'Linkedin'
+    url = '/'
+    icon = 'fa-brands fa-linkedin'
+    title = 'linkedin'
+    weight = 20
+    rel = 'external'
+    target = '_blank'
+[[social]]
+    identifier = 'email'
+    name = 'Email'
+    url = '/'
+    icon = 'fa-solid fa-envelope'
+    title = 'email'
+    weight = 30
+    rel = 'next'
+    target = '_self'
+[[social]]
+    identifier = 'mastodon'
+    name = 'Mastodon'
+    url = '/'
+    icon = 'fa-brands fa-mastodon'
+    title = 'mastodon'
+    weight = 40
+    rel = 'external'
+    target = '_blank'
+[[social]]
+    identifier = 'goodreads'
+    name = 'Goodreads'
+    url = '/'
+    icon = 'fa-brands fa-goodreads'
+    title = 'goodreads'
+    weight = 50
+    rel = 'external'
+    target = '_blank'
+[[social]]
+    identifier = 'untappd'
+    name = 'Untappd'
+    url = '/'
+    icon = 'fa-brands fa-untappd'
+    title = 'untappd'
+    weight = 60
+    rel = 'external'
+    target = '_blank'
+[[social]]
+    identifier = 'strava'
+    name = 'Strava'
+    url = '/'
+    icon = 'fa-brands fa-strava'
+    title = 'strava'
+    weight = 70
+    rel = 'external'
+    target = '_blank'

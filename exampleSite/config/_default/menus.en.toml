@@ -1,0 +1,71 @@
+[[main]]
+    identifier = 'about'
+    name = 'about'
+    pageRef = '/about'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'about me'
+    weight = 10
+    [main.params]
+[[main]]
+    identifier = 'projects'
+    name = 'projects'
+    pageRef = '/projects'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'projects'
+    weight = 20
+    [main.params]
+[[main]]
+    identifier = 'resume'
+    name = 'resume'
+    url = '#'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'resume'
+    weight = 30
+    [main.params]
+        rel = 'external'
+[[main]]
+    identifier = 'contactme'
+    name = 'contact me'
+    pageRef = '/contactme'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'contact me'
+    weight = 40
+    [main.params]
+[[main]]
+    identifier = 'research-projects'
+    name = 'research'
+    pageRef = '/projects/research'
+    parent = 'projects'
+    post = ''
+    pre = ''
+    title = 'research projects'
+    weight = 10
+    [main.params]
+[[main]]
+    identifier = 'diy-projects'
+    name = 'diy'
+    pageRef = '/projects/diy'
+    parent = 'projects'
+    post = ''
+    pre = ''
+    title = 'diy projects'
+    weight = 20
+    [main.params]
+[[main]]
+    identifier = 'creative-projects'
+    name = 'creative'
+    pageRef = '/projects/creative'
+    parent = 'projects'
+    post = ''
+    pre = ''
+    title = 'creative projects'
+    weight = 30
+    [main.params]

@@ -1,0 +1,9 @@
+[cache]
+    [cache.for]
+        excludes = ['**']
+[[polls]]
+    disable = true
+    high = '0s'
+    low = '0s'
+    [polls.for]
+        includes = ['**']

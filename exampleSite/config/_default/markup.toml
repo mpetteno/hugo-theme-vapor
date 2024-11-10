@@ -1,0 +1,61 @@
+defaultMarkdownHandler = 'goldmark'
+
+[goldmark]
+    duplicateResourceFiles = false
+    [goldmark.extensions]
+        definitionList = true
+        footnote = true
+        linkify = true
+        linkifyProtocol = 'https'
+        strikethrough = true
+        table = true
+        taskList = true
+        [goldmark.extensions.cjk]
+            eastAsianLineBreaks = false
+            eastAsianLineBreaksStyle = 'simple'
+            enable = false
+            escapedSpace = false
+        [goldmark.extensions.extras]
+            [goldmark.extensions.extras.delete]
+            enable = false
+            [goldmark.extensions.extras.insert]
+                enable = false
+            [goldmark.extensions.extras.mark]
+                enable = false
+            [goldmark.extensions.extras.subscript]
+                enable = false
+            [goldmark.extensions.extras.superscript]
+                enable = false
+        [goldmark.extensions.passthrough]
+            enable = false
+            [goldmark.extensions.passthrough.delimiters]
+                block = []
+                inline = []
+        [goldmark.extensions.typographer]
+            apostrophe = '&rsquo;'
+            disable = false
+            ellipsis = '&hellip;'
+            emDash = '&mdash;'
+            enDash = '&ndash;'
+            leftAngleQuote = '&laquo;'
+            leftDoubleQuote = '&ldquo;'
+            leftSingleQuote = '&lsquo;'
+            rightAngleQuote = '&raquo;'
+            rightDoubleQuote = '&rdquo;'
+            rightSingleQuote = '&rsquo;'
+    [goldmark.parser]
+        autoHeadingID = true
+        autoHeadingIDType = 'github'
+        wrapStandAloneImageWithinParagraph = true
+        [goldmark.parser.attribute]
+            block = false
+            title = true
+    [goldmark.renderHooks]
+        [goldmark.renderHooks.image]
+            enableDefault = true
+        [goldmark.renderHooks.link]
+            enableDefault = false
+    [goldmark.renderer]
+        hardWraps = false
+        unsafe = false
+        xhtml = false

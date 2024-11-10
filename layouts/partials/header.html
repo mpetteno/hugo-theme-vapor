@@ -1,6 +1,6 @@
 <div class="flex flex-col space-y-4xl">
-    <div class="flex justify-between items-center">
-        {{ partial "components/searchBar.html" (dict "Class" "mr-l") }}
+    <div class="flex {{ if site.Params.searchBar }} justify-between {{ else }} justify-end {{ end }} items-center">
+        {{ partial "components/searchBar.html" (dict "Class" "mr-l max-w-[200px] s:max-w-[250px]") }}
         <div class="flex items-center space-x-l">
             {{ partial "components/themeModeSwitcher.html" }}
             {{ partial "components/languageSelector.html" (dict "Context" . ) }}
