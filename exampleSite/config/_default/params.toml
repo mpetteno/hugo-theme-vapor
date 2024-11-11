@@ -72,3 +72,13 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 70
     rel = 'external'
     target = '_blank'
+[[social]]
+    identifier = 'pinterest'
+    name = 'Pinterest'
+    url = '/'
+    icon = 'fa-brands fa-pinterest'
+    title = 'pinterest'
+    weight = 80
+    rel = 'external'
+    target = '_blank'
+    hide = true

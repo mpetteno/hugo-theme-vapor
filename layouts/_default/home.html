@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{- $page := . }}
-  <div class="flex flex-col w-full items-center justify-center [&>*:nth-child(4n+3)]:after:right-none [&>*:nth-child(4n+5)]:after:left-none">
-    <div class="w-full m:w-2/3 space-y-xl">
+  <div class="flex flex-col w-full items-center justify-center">
+    <div class="w-full m:w-4/5 xl:w-2/3 space-y-xl [&>*:nth-child(4n+3)]:after:left-none [&>*:nth-child(4n+5)]:after:right-none">
       <div class="mb-l text-center text-xl">{{ .Content }}</div>
       {{- with site.Menus.main }}
         {{- partial "inline/menu/pageSummary.html" (dict "page" $page "menuEntries" .) }}

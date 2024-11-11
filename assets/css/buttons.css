@@ -6,6 +6,12 @@
 
 .btn-brand {
     @apply border-container rounded-s p-s bg-brand-light dark:bg-brand-dark hover:bg-brand-hover-light
-    dark:hover:bg-brand-hover-dark active:bg-brand-light dark:active:bg-brand-pressed-dark text-secondary-inverse-light
+    dark:hover:bg-brand-hover-dark active:bg-brand-pressed-light dark:active:bg-brand-pressed-dark text-secondary-inverse-light
+    dark:text-secondary-inverse-dark;
+}
+
+.btn-secondary {
+    @apply border-container rounded-s p-s bg-info-light dark:bg-info-dark hover:bg-notice-light
+    dark:hover:bg-notice-dark active:bg-brand-pressed-light dark:active:bg-brand-pressed-dark text-secondary-inverse-light
     dark:text-secondary-inverse-dark;
 }

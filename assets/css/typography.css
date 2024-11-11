@@ -7,9 +7,10 @@
 .heading-xl,
 .heading-l,
 .heading-m,
+.heading-s,
 .heading-xs,
 .heading-2xs {
-    @apply font-normal text-primary-light dark:text-primary-dark;
+    @apply text-primary-light dark:text-primary-dark;
 }
 
 /* Tracking */
@@ -17,7 +18,7 @@
     @apply tracking-xs
 }
 
-.heading-m, .heading-xs, .heading-2xs {
+.heading-m, .heading-s, .heading-xs, .heading-2xs {
     @apply tracking-s
 }
 
