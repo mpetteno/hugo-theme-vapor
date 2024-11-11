@@ -1,10 +1,12 @@
 {{ define "main" }}
   {{- $page := . }}
-  <div class="flex flex-col w-full space-y-xl items-center justify-center [&>*:nth-child(4n+3)]:after:right-none [&>*:nth-child(4n+5)]:after:left-none">
-    <div class="w-11/12 s:w-2/3 mb-l text-center text-xl">{{ .Content }}</div>
-    {{- with site.Menus.main }}
-      {{- partial "inline/menu/pageSummary.html" (dict "page" $page "menuEntries" .) }}
-    {{- end }}
+  <div class="flex flex-col w-full items-center justify-center [&>*:nth-child(4n+3)]:after:right-none [&>*:nth-child(4n+5)]:after:left-none">
+    <div class="w-full m:w-2/3 space-y-xl">
+      <div class="mb-l text-center text-xl">{{ .Content }}</div>
+      {{- with site.Menus.main }}
+        {{- partial "inline/menu/pageSummary.html" (dict "page" $page "menuEntries" .) }}
+      {{- end }}
+    </div>
   </div>
 {{ end }}
 
@@ -14,15 +16,15 @@
   {{- range $index, $entry := $entries }}
     {{ if $entry.HasChildren }}
       {{- with .Children }}
-        <div class="relative w-11/12 s:w-2/3 h-2xs bg-brand-light dark:bg-brand-dark after:absolute after:bg-brand-light dark:after:bg-brand-light after:-bottom-xs after:w-[10px] after:h-[10px] after:rounded-circle"></div>
+        <div class="relative h-2xs bg-brand-light dark:bg-brand-dark after:absolute after:bg-brand-light dark:after:bg-brand-light after:-bottom-xs after:w-[10px] after:h-[10px] after:rounded-circle"></div>
         {{- partial "inline/menu/pageSummary.html" (dict "page" $page "menuEntries" .) }}
       {{ end }}
     {{ else }}
       {{- with $entry.Page }}
         {{ if ne ($index) (0) }}
-          <div class="relative w-11/12 s:w-2/3 h-2xs bg-brand-light dark:bg-brand-dark after:absolute after:bg-brand-light dark:after:bg-brand-light after:-bottom-xs after:w-[10px] after:h-[10px] after:rounded-circle"></div>
+          <div class="relative h-2xs bg-brand-light dark:bg-brand-dark after:absolute after:bg-brand-light dark:after:bg-brand-light after:-bottom-xs after:w-[10px] after:h-[10px] after:rounded-circle"></div>
         {{ end }}
-        <div id="{{ $entry.Identifier }}" class="w-11/12 s:w-2/3 article">
+        <div id="{{ $entry.Identifier }}" class="article">
           {{ if eq ($entry.Identifier) ("contactme") }}
             <h2 class="text-center heading-m font-semibold mb-l">
               {{ if not site.Params.singlePage }}
