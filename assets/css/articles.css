@@ -12,9 +12,9 @@
 }
 
 .article p {
-    @apply text-xl text-primary-light dark:text-primary-dark;
+    @apply text-l text-primary-light dark:text-primary-dark;
 }
 
 .article ins {
-    @apply text-xl text-primary-light dark:text-primary-dark;
+    @apply text-l text-primary-light dark:text-primary-dark;
 }

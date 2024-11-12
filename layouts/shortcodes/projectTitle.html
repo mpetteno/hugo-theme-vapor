@@ -1,35 +1,35 @@
-<div class="flex space-x-m mb-m mt-l m:mt-none items-center justify-center m:justify-normal">
+<div class="flex space-x-m mb-m mt-l m:mt-none items-center justify-center m:justify-normal project-title">
     <h3 class="heading-s">{{ with .Get "title" }}{{ . }}{{ end }}</h3>
     <div class="flex space-x-xs">
         {{- if .Get "link1" -}}
-            <button class="btn-brand w-5xl w-fit">
-                <a href='{{ with .Get "link1" }}{{ . }}{{ end }}' target="_blank" class="flex items-center">
+            <a href='{{ with .Get "link1" }}{{ . }}{{ end }}' target="_blank">
+                <button class="btn-brand w-5xl w-fit flex items-center">
                     {{- if .Get "icon1" -}}
                         <i class='{{ with .Get "icon1" }}{{ . }}{{ end }} mr-xs'></i>
                     {{- end -}}
                     {{ with .Get "title1" }} {{ . }} {{ end }}
-                </a>
-            </button>
+                </button>
+            </a>
         {{- end -}}
         {{- if .Get "link2" -}}
-            <button class="btn-secondary w-5xl w-fit">
-                <a href='{{ with .Get "link2" }}{{ . }}{{ end }}' target="_blank" class="flex items-center">
+            <a href='{{ with .Get "link2" }}{{ . }}{{ end }}' target="_blank">
+                <button class="btn-secondary w-5xl w-fit flex items-center">
                     {{- if .Get "icon2" -}}
                         <i class='{{ with .Get "icon2" }}{{ . }}{{ end }} mr-xs'></i>
                     {{- end -}}
                     {{ with .Get "title2" }}{{ . }}{{ end }}
-                </a>
-            </button>
+                </button>
+            </a>
         {{- end -}}
         {{- if .Get "link3" -}}
-            <button class="btn w-5xl w-fit">
-                <a href='{{ with .Get "link3" }}{{ . }}{{ end }}' target="_blank" class="flex items-center">
+            <a href='{{ with .Get "link3" }}{{ . }}{{ end }}' target="_blank">
+                <button class="btn w-5xl w-fit flex items-center">
                     {{- if .Get "icon3" -}}
                         <i class='{{ with .Get "icon3" }}{{ . }}{{ end }} mr-xs'></i>
                     {{- end -}}
                     {{ with .Get "title3" }}{{ . }}{{ end }}
-                </a>
-            </button>
+                </button>
+            </a>
         {{- end -}}
     </div>
 </div>
