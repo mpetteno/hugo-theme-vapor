@@ -122,6 +122,8 @@ module.exports = {
       "disabled-dark": "#4f4e50",
       "brand-light": "#d06369",
       "brand-dark": "#e08c8f",
+      "brand-hover-light": "#bb4351",
+      "brand-hover-dark": "#ecb5b6",
       "link-light": "#3899a2",
       "link-dark": "#54b5bc",
       "link-hover-light": "#358692",
