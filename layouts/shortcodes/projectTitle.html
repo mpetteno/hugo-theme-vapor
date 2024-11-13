@@ -2,7 +2,7 @@
     <h3 class="heading-s">{{ with .Get "title" }}{{ . }}{{ end }}</h3>
     <div class="flex space-x-xs items-stretch">
         {{- if .Get "link1" -}}
-            <a href='{{ with .Get "link1" }}{{ . }}{{ end }}' target="_blank" class="btn-brand w-fit flex items-center self-stretch">
+            <a href='{{ with .Get "link1" }}{{ . }}{{ end }}' target="_blank" class='btn-brand w-fit {{ with .Get "hideMobile1" }}hidden m:flex{{ else }}flex{{ end }} items-center self-stretch {{ with .Get "class1" }}{{ . }}{{ end }}'>
                 {{- if .Get "icon1" -}}
                     <i class='{{ with .Get "icon1" }}{{ . }}{{ end }} mr-s'></i>
                 {{- end -}}
@@ -13,7 +13,7 @@
             </a>
         {{- end -}}
         {{- if .Get "link2" -}}
-            <a href='{{ with .Get "link2" }}{{ . }}{{ end }}' target="_blank" class="btn-secondary w-fit flex items-center self-stretch">
+            <a href='{{ with .Get "link2" }}{{ . }}{{ end }}' target="_blank" class='btn-secondary w-fit {{ with .Get "hideMobile2" }}hidden m:flex{{ else }}flex{{ end }} items-center self-stretch {{ with .Get "class2" }}{{ . }}{{ end }}'>
                 {{- if .Get "icon2" -}}
                     <i class='{{ with .Get "icon2" }}{{ . }}{{ end }} mr-s'></i>
                 {{- end -}}
@@ -24,7 +24,7 @@
             </a>
         {{- end -}}
         {{- if .Get "link3" -}}
-            <a href='{{ with .Get "link3" }}{{ . }}{{ end }}' target="_blank" class="btn w-fit flex items-center self-stretch">
+            <a href='{{ with .Get "link3" }}{{ . }}{{ end }}' target="_blank" class='btn w-fit {{ with .Get "hideMobile3" }}hidden m:flex{{ else }}flex{{ end }} items-center self-stretch {{ with .Get "class3" }}{{ . }}{{ end }}'>
                 {{- if .Get "icon3" -}}
                     <i class='{{ with .Get "icon3" }}{{ . }}{{ end }} mr-s'></i>
                 {{- end -}}
