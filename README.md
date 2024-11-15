@@ -2,17 +2,15 @@
 
 ## Features
 - Nice to have
-    - [ ] Analytics: Google, Plausible, Umami
+    - [ ] Analytics: Google (needs a cookie banner)
         - https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/
-    - [ ] Robots txt
     - [ ] Google tag manager
-    - [ ] Mailchimp subscribe
-    - [ ] No JS links or onclick events to prevent crawling
     - [ ] Title and meta tags automation
     - [ ] Google lighthouse scores
     - [ ] Splash screen
     - [ ] Generated audio starting after splash screen
     - [ ] Ko-fi, Patreon, RSS feed, Gumroad
+    - [ ] newsletter (mailchimp subscription)
 
 ## Installation
 ```
