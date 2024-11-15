@@ -1,2 +1,11 @@
-[services.googleAnalytics]
+[disqus]
+    shortname = ''
+[googleAnalytics]
     id = ''
+[instagram]
+    accessToken = ''
+    disableInlineCSS = false
+[rss]
+    limit = -1
+[twitter]
+    disableInlineCSS = false
