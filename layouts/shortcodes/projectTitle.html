@@ -1,4 +1,4 @@
-<div class="flex space-x-m mb-m mt-l m:mt-none items-center justify-center m:justify-normal project-title">
+<div id='{{ with .Get "id" }}{{ . }}{{ end }}' class="flex space-x-m mb-m mt-l m:mt-none items-center justify-center m:justify-normal project-title">
     <h3 class="heading-s">{{ with .Get "title" }}{{ . }}{{ end }}</h3>
     <div class="flex space-x-xs items-stretch">
         {{- if .Get "link1" -}}
