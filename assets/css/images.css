@@ -22,4 +22,5 @@
 .rounded-img > img {
     border-radius: 50%;
     shape-outside: circle(50%);
+    @apply border-m border-brand-light dark:border-brand-dark
 }
