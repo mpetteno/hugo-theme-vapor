@@ -45,7 +45,7 @@ Renders a menu for the given menu ID.
     <li class="border-b-transparent border-b-m {{ if not .HasChildren }}hover:border-b-brand-light dark:hover-border-b-brand-dark{{end}} {{ if .HasChildren }}cursor-pointer group{{ end }} relative">
       {{ .Pre | markdownify }}
       {{ if not .HasChildren }}
-        <a
+        <a class="w-full block"
           {{- range $k, $v := $attrs }}
             {{- with $v }}
               {{- printf " %s=%q" $k $v | safeHTMLAttr }}
