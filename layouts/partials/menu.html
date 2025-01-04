@@ -24,8 +24,12 @@ Renders a menu for the given menu ID.
   {{- $separator := .separator | default true }}
   {{- range $index, $entry := $entries }}
     {{- $href := .URL }}
-    {{- if and (site.Params.singlePage) (ne ($entry.Params.rel) ("external"))  }}
-      {{- $href = printf "#%s" .Identifier }}
+    {{- if and (site.Params.singlePage) (ne ($entry.Params.rel) ("external")) }}
+      {{- if eq ($page.Kind) ("home") }}
+        {{- $href = printf "#%s" .Identifier }}
+      {{- else }}
+        {{- $href = printf "%s#%s" (site.BaseURL | relLangURL) .Identifier }}
+      {{- end }}
     {{- end }}
     {{- $attrs := dict "href" $href }}
     {{- if $entry.Params.target }}
@@ -42,7 +46,8 @@ Renders a menu for the given menu ID.
         {{- $name = . }}
       {{- end }}
     {{- end }}
-    <li class="border-b-transparent border-b-m {{ if not .HasChildren }}hover:border-b-brand-light dark:hover-border-b-brand-dark{{end}} {{ if .HasChildren }}cursor-pointer group{{ end }} relative">
+    <li class="border-b-transparent border-b-m {{ if not .HasChildren }}hover:border-b-brand-light
+     dark:hover-border-b-brand-dark{{end}} {{ if .HasChildren }}cursor-pointer group{{ end }} relative">
       {{ .Pre | markdownify }}
       {{ if not .HasChildren }}
         <a class="w-full block"
@@ -57,7 +62,8 @@ Renders a menu for the given menu ID.
       {{ end }}
       {{ .Post | markdownify }}
       {{- with .Children }}
-        <ul class="invisible w-max absolute -left-[10px] z-50 group-hover:visible bg-selected-light dark:bg-selected-dark p-m text-l rounded-m">
+        <ul class="invisible w-max absolute -left-[10px] z-50 group-hover:visible bg-selected-light
+        dark:bg-selected-dark p-m text-l rounded-m">
           {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "separator" false)  }}
         </ul>
       {{- end }}
