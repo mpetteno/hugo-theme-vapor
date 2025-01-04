@@ -12,6 +12,9 @@
     - [ ] Ko-fi, Patreon, RSS feed, Gumroad
     - [ ] newsletter (mailchimp subscription)
 
+## TODO
+- Fix js.Build in js.html
+
 ## Installation
 ```
 git submodule add https://github.com/mpetteno/hugo-theme-vapor.git themes/vapor
