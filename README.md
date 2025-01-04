@@ -29,10 +29,7 @@ huge server [--environment production]
 ```
 
 ## Configuration
-### Custom font
-- Get font name from google fonts embed link
-- Set googleFontName param in config
-- Modify fontFamily name in tailwind
+
 
 ## Example site
 ```
