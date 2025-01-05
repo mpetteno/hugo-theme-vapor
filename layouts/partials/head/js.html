@@ -11,3 +11,16 @@
 {{- end }}
 
 <script src="{{ site.Params.fontawesomekiturl }}" crossorigin="anonymous"></script>
+
+<script>
+  const toggleDarkMode = () => {
+    const isDark = localStorage.getItem('darkMode') === 'true';
+    document.documentElement.classList.toggle('dark', !isDark);
+    localStorage.setItem('darkMode', !isDark);
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const isDark = localStorage.getItem('darkMode') === 'true';
+    document.documentElement.classList.toggle('dark', isDark);
+  });
+</script>

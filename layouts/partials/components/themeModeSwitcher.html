@@ -2,8 +2,7 @@
 
 {{ if site.Params.themeModeSwitcher }}
     <div class="{{ $class }} relative flex shrink-0 items-center">
-        <input id="dark-mode-toggle" type="checkbox" class="appearance-none peer"
-               onchange="document.documentElement.classList.toggle('dark')"/>
+        <input id="dark-mode-toggle" type="checkbox" class="appearance-none peer" onchange="toggleDarkMode()"/>
         <label for="dark-mode-toggle" class="w-[48px] h-[24px] cursor-pointer bg-brand-dark dark:bg-brand-light rounded-[24px] after:w-[20px] after:h-[20px] after:absolute after:top-2xs after:left-2xs after:rounded-[20px] after:bg-primary-light after:shadow-md peer-checked:bg-brand-light peer-checked:after:left-[46px] peer-checked:after:-translate-x-full active:after:w-[32px] transition-all duration-300m dark:peer-checked:after:bg-info-subtle-dark">
             <i class="text-secondary-light dark:text-disabled-dark fa-regular fa-sun absolute text-[12px] top-[6px] left-[6px] z-50 transition-all duration-300m"></i>
             <i class="text-disabled-light dark:text-secondary-dark fa-regular fa-moon absolute text-[12px] top-[6px] left-[32px] z-50 transition-all duration-300m"></i>
