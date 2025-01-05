@@ -1,3 +1,3 @@
-<a href='{{ with .Get "href" }}{{ . }}{{ end }}' target='{{ with .Get "target" }}{{ . }}{{ end }}'>
-    <span class="text-info-light dark:text-link-dark">{{ with .Get "title" }}{{ . }}{{ end }}</span>
+<a href='{{ with .Get "href" }}{{.}}{{ end }}' class="inline-block" target='{{ with .Get "target" }}{{.}}{{ end }}'>
+    <span class="text-info-light dark:text-link-dark">{{ with .Get "title" }}{{.}}{{ end }}</span>
 </a>

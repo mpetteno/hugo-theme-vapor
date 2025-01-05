@@ -9,7 +9,9 @@
     {{ partial "header.html" . }}
   </header>
   <main class="p-l m:p-xl">
-    {{ block "main" . }}{{ end }}
+    <div class="flex flex-col w-full items-center justify-center">
+      {{ block "main" . }}{{ end }}
+    </div>
   </main>
   <footer class="p-l m:p-xl">
     {{ partial "footer.html" . }}
