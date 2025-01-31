@@ -13,7 +13,7 @@
   {{- $page := .page }}
   {{- $entries := .menuEntries }}
   {{- range $index, $entry := $entries }}
-    {{ if $entry.HasChildren }}
+    {{ if and ($entry.HasChildren) ($entry.Page)}}
       {{- with .Children }}
         <div class="relative h-2xs bg-brand-light dark:bg-brand-dark after:absolute after:bg-brand-light
         dark:after:bg-brand-light after:-bottom-xs after:w-[10px] after:h-[10px] after:rounded-circle"></div>
