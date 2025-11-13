@@ -82,3 +82,23 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     rel = 'external'
     target = '_blank'
     hide = true
+[[social]]
+    identifier = 'research-gate'
+    name = 'ResearchGate'
+    url = '/'
+    icon = 'fa-brands fa-researchgate'
+    title = 'research-gate'
+    weight = 90
+    rel = 'external'
+    target = '_blank'
+    hide = true
+[[social]]
+    identifier = 'google-scholar'
+    name = 'Google Scholar'
+    url = '/'
+    icon = 'fa-brands fa-google-scholar'
+    title = 'google-scholar'
+    weight = 100
+    rel = 'external'
+    target = '_blank'
+    hide = true

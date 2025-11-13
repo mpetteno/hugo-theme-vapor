@@ -10,6 +10,7 @@ defaultMarkdownHandler = 'goldmark'
         strikethrough = true
         table = true
         taskList = true
+        typographer = true
         [goldmark.extensions.cjk]
             eastAsianLineBreaks = false
             eastAsianLineBreaksStyle = 'simple'
@@ -31,18 +32,6 @@ defaultMarkdownHandler = 'goldmark'
             [goldmark.extensions.passthrough.delimiters]
                 block = []
                 inline = []
-        [goldmark.extensions.typographer]
-            apostrophe = '&rsquo;'
-            disable = false
-            ellipsis = '&hellip;'
-            emDash = '&mdash;'
-            enDash = '&ndash;'
-            leftAngleQuote = '&laquo;'
-            leftDoubleQuote = '&ldquo;'
-            leftSingleQuote = '&lsquo;'
-            rightAngleQuote = '&raquo;'
-            rightDoubleQuote = '&rdquo;'
-            rightSingleQuote = '&rsquo;'
     [goldmark.parser]
         autoHeadingID = true
         autoHeadingIDType = 'github'
@@ -52,9 +41,9 @@ defaultMarkdownHandler = 'goldmark'
             title = true
     [goldmark.renderHooks]
         [goldmark.renderHooks.image]
-            enableDefault = true
+            useEmbedded = "fallback"
         [goldmark.renderHooks.link]
-            enableDefault = false
+            useEmbedded = "fallback"
     [goldmark.renderer]
         hardWraps = false
         unsafe = false

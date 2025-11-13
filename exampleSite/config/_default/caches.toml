@@ -13,9 +13,6 @@
 [images]
     dir = ':resourceDir/_gen'
     maxAge = -1
-[misc]
-    dir = ':cacheDir/:project'
-    maxAge = -1
 [modules]
     dir = ':cacheDir/modules'
     maxAge = -1
