@@ -18,3 +18,27 @@
 .article ins {
     @apply text-l text-primary-light dark:text-primary-dark;
 }
+
+.project-details {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease-in-out, opacity 0.25s ease-in-out;
+    opacity: 0;
+}
+
+.project-details > div {
+    overflow: hidden;
+}
+
+.project-details.is-open {
+    grid-template-rows: 1fr;
+    opacity: 1;
+}
+
+.project-arrow {
+    transition: transform 0.3s ease;
+}
+
+.project-arrow.is-open {
+    transform: rotate(180deg);
+}

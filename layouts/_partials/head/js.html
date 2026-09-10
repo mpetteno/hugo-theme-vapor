@@ -23,4 +23,30 @@
     const isDark = localStorage.getItem('darkMode') === 'true';
     document.documentElement.classList.toggle('dark', isDark);
   });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const titles = document.querySelectorAll('.project-title');
+
+    titles.forEach((title) => {
+      const arrow = title.querySelector('.project-arrow');
+
+      let details = title.nextElementSibling;
+      while (details && !details.classList.contains('project-details')) {
+        details = details.nextElementSibling;
+      }
+
+      if (details) {
+        title.addEventListener('click', (e) => {
+          if (e.target.closest('a')) {
+            return;
+          }
+
+          details.classList.toggle('is-open');
+          if (arrow) {
+            arrow.classList.toggle('is-open');
+          }
+        });
+      }
+    });
+  });
 </script>
