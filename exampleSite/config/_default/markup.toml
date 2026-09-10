@@ -4,13 +4,11 @@ defaultMarkdownHandler = 'goldmark'
     duplicateResourceFiles = false
     [goldmark.extensions]
         definitionList = true
-        footnote = true
         linkify = true
         linkifyProtocol = 'https'
         strikethrough = true
         table = true
         taskList = true
-        typographer = true
         [goldmark.extensions.cjk]
             eastAsianLineBreaks = false
             eastAsianLineBreaksStyle = 'simple'
@@ -19,32 +17,49 @@ defaultMarkdownHandler = 'goldmark'
         [goldmark.extensions.extras]
             [goldmark.extensions.extras.delete]
             enable = false
-            [goldmark.extensions.extras.insert]
-                enable = false
-            [goldmark.extensions.extras.mark]
-                enable = false
-            [goldmark.extensions.extras.subscript]
-                enable = false
-            [goldmark.extensions.extras.superscript]
-                enable = false
+        [goldmark.extensions.extras.insert]
+            enable = false
+        [goldmark.extensions.extras.mark]
+            enable = false
+        [goldmark.extensions.extras.subscript]
+            enable = false
+        [goldmark.extensions.extras.superscript]
+            enable = false
+        [goldmark.extensions.footnote]
+            backlinkHTML = '&#x21a9;&#xfe0e;'
+            enable = true
+            enableAutoIDPrefix = false
         [goldmark.extensions.passthrough]
             enable = false
-            [goldmark.extensions.passthrough.delimiters]
-                block = []
-                inline = []
+        [goldmark.extensions.passthrough.delimiters]
+            block = []
+            inline = []
+        [goldmark.extensions.typographer]
+            apostrophe = '&rsquo;'
+            disable = false
+            ellipsis = '&hellip;'
+            emDash = '&mdash;'
+            enDash = '&ndash;'
+            leftAngleQuote = '&laquo;'
+            leftDoubleQuote = '&ldquo;'
+            leftSingleQuote = '&lsquo;'
+            rightAngleQuote = '&raquo;'
+            rightDoubleQuote = '&rdquo;'
+            rightSingleQuote = '&rsquo;'
     [goldmark.parser]
+        autoDefinitionTermID = false
         autoHeadingID = true
-        autoHeadingIDType = 'github'
+        autoIDType = 'github'
         wrapStandAloneImageWithinParagraph = true
         [goldmark.parser.attribute]
             block = false
             title = true
     [goldmark.renderHooks]
         [goldmark.renderHooks.image]
-            useEmbedded = "fallback"
+            useEmbedded = 'fallback'
         [goldmark.renderHooks.link]
-            useEmbedded = "fallback"
+            useEmbedded = 'fallback'
     [goldmark.renderer]
-        hardWraps = false
-        unsafe = false
-        xhtml = false
+            hardWraps = false
+            unsafe = true
+            xhtml = true

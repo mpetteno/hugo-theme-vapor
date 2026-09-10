@@ -1,6 +1,8 @@
+respectCacheControlNoStoreInRequest = true
+respectCacheControlNoStoreInResponse = false
 [cache]
     [cache.for]
-        excludes = ['**']
+    excludes = ['**']
 [[polls]]
     disable = true
     high = '0s'

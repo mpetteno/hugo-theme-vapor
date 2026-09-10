@@ -1,0 +1,6 @@
+[contentTypes.'text/asciidoc']
+[contentTypes.'text/html']
+[contentTypes.'text/markdown']
+[contentTypes.'text/org']
+[contentTypes.'text/pandoc']
+[contentTypes.'text/rst']

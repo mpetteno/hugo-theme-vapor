@@ -1,9 +1,19 @@
+allowContent = ['! ^text/html$', '! ^text/org$']
 enableInlineShortcodes = false
 [exec]
-    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$', '^node$']
     osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$']
 [funcs]
     getenv = ['^HUGO_', '^CI$']
 [http]
     methods = ['(?i)GET|POST']
-    urls = ['.*']
+    proxyFromEnvironment = false
+    urls = ['(?i)^https?://[a-z0-9]', '! (?i)^https?://\d+\.', '! (?i)localhost', '! (?i)^https?://[^/?#]*@']
+[node]
+[node.permissions]
+    allowAddons = ['tailwindcss']
+    allowChildProcess = ['tailwindcss']
+    allowRead = ['.']
+    allowWorker = ['tailwindcss']
+    allowWrite = []
+    disable = true

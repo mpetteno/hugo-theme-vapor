@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}" dir="{{ or .Site.Language.LanguageDirection `ltr` }}"
+<html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}"
       class='{{ if eq (site.Params.defaultThemeMode) ("dark") }}dark{{ end }} scroll-smooth'>
 <head>
   {{ partial "head.html" . }}

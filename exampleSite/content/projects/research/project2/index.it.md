@@ -11,7 +11,7 @@ Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. 
 laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum 
 Lorem non magna adipisicing mollit amet consequat.
 
-![Bryce Canyon National Park](bryce-canyon.jpg)
+![Bryce Canyon National Park](../../../../it/projects/research/project2/bryce-canyon.jpg)
 
 Sit excepteur do velit veniam mollit in nostrud laboris incididunt ea. Amet eu cillum ut reprehenderit culpa aliquip 
 labore laborum amet sit sit duis. Laborum id proident nostrud dolore laborum reprehenderit quis mollit nulla amet 

@@ -28,7 +28,7 @@ Change configuration as needed.
 
 Run
 ```
-huge server [--environment production]
+hugo server [--environment production]
 ```
 
 ## Configuration
@@ -38,5 +38,5 @@ huge server [--environment production]
 ```
 cd exampleSite
 npm install
-huge server [--environment production]
+hugo server [--environment production]
 ```

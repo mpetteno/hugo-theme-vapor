@@ -1,17 +1,17 @@
 [en]
-    contentDir = 'content/en'
+    contentDir = 'content'
     disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
+    locale = 'en-US'
+    direction = 'ltr'
+    label = 'English'
     title = 'Portfolio'
     weight = 0
 [it]
-    contentDir = 'content/it'
+    contentDir = 'content'
     disabled = false
-    languageCode = 'it-iT'
-    languageDirection = 'ltr'
-    languageName = 'Italian'
+    locale = 'it-iT'
+    direction = 'ltr'
+    label = 'Italian'
     title = 'Portfolio'
     weight = 1
 
